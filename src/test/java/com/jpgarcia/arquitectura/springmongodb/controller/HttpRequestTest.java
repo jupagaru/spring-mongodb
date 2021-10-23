@@ -30,7 +30,7 @@ class HttpRequestTest {
     @Test
     public void testSaludoPorDefecto() throws Exception {
         assertThat(this.restTemplate.getForObject("http://localhost:" + port + "/api/hola",
-                String.class)).contains("Hola Mundo!");
+                String.class)).contains("Hola Marte!");
     }
     
     

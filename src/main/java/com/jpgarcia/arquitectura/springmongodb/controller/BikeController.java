@@ -41,7 +41,7 @@ public class BikeController {
 	}
 	
 	@GetMapping("/hola")
-    public String hola(@RequestParam(value = "nombre", defaultValue = "Mundo") String nombre) {
+    public String hola(@RequestParam(value = "nombre", defaultValue = "Marte") String nombre) {
         return String.format("Hola %s!", nombre);
     }
 
